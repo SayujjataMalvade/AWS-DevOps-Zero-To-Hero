@@ -21,13 +21,15 @@ Due to these advantages, Cloud technology has become highly popular in the last 
 
 # Private Cloud vs Public Cloud
 
-A **Hypervisor** is known as a Private Cloud because it is typically limited to a single company. Startups and low-budget companies often did not have access to public cloud platforms due to cost constraints.
+A **Hypervisor** is known as a Private Cloud because it is typically limited to a single company. Startups and low-budget companies often did not have much access to public cloud platforms due to cost constraints.
 
-To address this, companies like **Amazon** and **Microsoft** introduced **Public Cloud** concepts. These platforms are affordable for startups and low-budget companies. Anyone in the world can create servers on Public Cloud platforms like **AWS** and **Azure**, paying only for what they use.
+To solve this problem, companies like **Amazon** and **Microsoft** introduced **Public Cloud** concepts. These platforms are affordable for startups and low-budget companies. Anyone in the world can create servers on Public Cloud platforms like **AWS** and **Azure**, paying only for what they use.
 
 ### Key Features of Public Cloud
 - **Scalable:** Easily adjust resources to meet demand.
 - **Highly Available:** Ensures consistent performance and uptime.
+- **Cost-Effective:** Affordable for companies of all sizes.
 
 These features make Public Cloud platforms popular globally.
+
 
