@@ -20,3 +20,15 @@
    In an organization, a user may be part of multiple projects, requiring them to belong to multiple groups. IAM enables users to be part of multiple groups as needed.
 
 IAM ensures secure and efficient access management for AWS resources.
+
+# Root User
+
+The **Root User** is a superuser in AWS with the highest level of authority. Key features of the Root User include:
+
+- Full control over AWS resources.
+- Ability to **create**, **delete**, and **deploy** applications on AWS resources.
+- Can create and delete other IAM users.
+- **Restriction:** No IAM user has the privilege to delete the Root User.
+
+The Root User is essential for managing critical aspects of an AWS account but should be used sparingly to ensure security.
+
