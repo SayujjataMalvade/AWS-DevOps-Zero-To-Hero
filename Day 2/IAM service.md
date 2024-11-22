@@ -7,23 +7,23 @@
 - Ensure only authorized individuals can manage project resources, aligning with AWS **security best practices**.
 
 ### Key Features of IAM
-- **Global Service:** IAM operates globally, meaning it is not tied to a specific AWS region.
+
+- **Global Service:** IAM operates globally and is not tied to a specific AWS region.
 - **IAM Users:** Can belong to multiple IAM groups.
 - **IAM Roles:** Are specific to particular AWS services.
 
 ### Components of IAM
 
 1. **User Policies:**  
-   When creating a user, you need to assign them access to AWS resources. Policies are used to define and grant these permissions.
+   When you create a user, you need to assign them access to AWS resources. Policies are used to define and grant these permissions.  
+   By default, AWS provides a policy called **IAMUserChangePassword** for user password management.
 
 2. **Groups:**  
    In an organization, a user may be part of multiple projects, requiring them to belong to multiple groups. IAM enables users to be part of multiple groups as needed.
 
-IAM ensures secure and efficient access management for AWS resources.
+### Root User
 
-# Root User
-
-The **Root User** is a superuser in AWS with the highest level of authority. Key features of the Root User include:
+The **Root User** is a superuser in AWS with the highest level of authority. Key features include:
 
 - Full control over AWS resources.
 - Ability to **create**, **delete**, and **deploy** applications on AWS resources.
@@ -31,4 +31,3 @@ The **Root User** is a superuser in AWS with the highest level of authority. Key
 - **Restriction:** No IAM user has the privilege to delete the Root User.
 
 The Root User is essential for managing critical aspects of an AWS account but should be used sparingly to ensure security.
-
