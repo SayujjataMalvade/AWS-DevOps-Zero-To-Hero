@@ -32,4 +32,22 @@ To address this, companies like **Amazon** and **Microsoft** introduced **Public
 
 These features make Public Cloud platforms highly popular globally.
 
+# Why AWS?
+
+**Amazon Web Services (AWS)** is a Public Cloud platform provided by **Amazon**. It is the most popular cloud platform among others because:
+
+- **First Mover Advantage:** AWS was the first platform to introduce the concept of public cloud, giving it a significant head start.
+- **Market Leadership:** AWS has a huge market share today.
+- **Quick Cloud Support:** Offers reliable and prompt support.
+- **Customizability:** AWS is more customizable than other cloud platforms.
+
+### Key Features of AWS
+- Over **200+ services** across various categories, including:
+  - **Machine Learning (ML)**
+  - **Database**
+  - **Security**
+  - **Networking**
+
+These factors make AWS the leading choice for cloud solutions.
+
 
