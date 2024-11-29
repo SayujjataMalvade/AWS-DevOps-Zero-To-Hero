@@ -1,0 +1,41 @@
+# Commands for Installing Jenkins and Dependencies
+
+1. Update the package lists:
+    ```bash
+    sudo apt update
+    ```
+
+2. Install required dependencies:
+    ```bash
+    sudo apt install fontconfig openjdk-17-jre
+    ```
+
+3. Verify the Java installation:
+    ```bash
+    java -version
+    ```
+
+4. Download and add Jenkins GPG key:
+    ```bash
+    sudo wget -O /usr/share/keyrings/jenkins-keyring.asc https://pkg.jenkins.io/debian/jenkins.io-2023.key
+    ```
+
+5. Add Jenkins repository:
+    ```bash
+    echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian binary/" | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
+    ```
+
+6. Update the package lists again:
+    ```bash
+    sudo apt-get update
+    ```
+
+7. Install Jenkins:
+    ```bash
+    sudo apt-get install jenkins
+    ```
+
+8. Retrieve the initial Jenkins admin password:
+    ```bash
+    sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+    ```
