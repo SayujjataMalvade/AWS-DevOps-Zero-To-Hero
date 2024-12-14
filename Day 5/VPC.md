@@ -34,3 +34,23 @@ A **route table** defines the path for network traffic within the VPC and beyond
 - Internet Gateway for external internet access.
 - NAT Gateway for private resources to access the internet.
 - Peering connections or other subnets for internal communication.
+
+---
+
+## Security Group
+
+A **security group** is a core component of security that operates at the **ENI (Elastic Network Interface) level**, meaning it applies to individual EC2 instances. It is:
+
+- **Stateful:** If an inbound rule is created, the corresponding outbound rule is automatically applied.
+- Configured with rules that specify the protocols, port numbers, and IP ranges allowed to access the EC2 instance.
+- Used to restrict or allow traffic based on IP and port-level configurations.
+
+---
+
+## Network Access Control List (NACL)
+
+A **NACL** operates at the **subnet level** and provides an additional layer of security. Key points include:
+
+- Works with the five security layers in the cloud: ENI, Subnet, Load Balancer, WAF, and Firewall.
+- **Stateless:** Inbound and outbound rules must be explicitly defined, and the rules are evaluated based on a priority list.
+- Useful for defining fine-grained control over traffic entering or leaving a subnet.
